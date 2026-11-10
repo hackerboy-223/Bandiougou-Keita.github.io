@@ -12,7 +12,7 @@
 - [x] Corriger l'URL absolue de l'image Open Graph.
 - [x] Corriger l'affichage flex du bouton de menu mobile.
 - [x] Vérifier la présence des deux fichiers dans `assets/` : portrait 181 757 octets, diplôme 337 555 octets.
-- [ ] Contrôler le chargement HTTP et le rendu sur le site publié (validation navigateur manuelle encore nécessaire).
+- [ ] Contrôler le chargement HTTP, l'affichage public et le rendu sur appareils (validation navigateur réelle encore nécessaire).
 
 ## Expérience & qualité
 - [x] Navigation responsive.
@@ -24,6 +24,9 @@
 - [x] Améliorer les attributs d'accessibilité du menu mobile et de la barre de progression.
 - [x] Ajouter fermeture du menu par Échap et au redimensionnement desktop.
 - [ ] Mesurer Lighthouse (Performance, Accessibility, Best Practices, SEO) sur le site publié.
+- [ ] Vérifier la propriété du site dans Google Search Console avec le jeton fourni par le propriétaire.
+- [ ] Soumettre `sitemap.xml` dans Google Search Console.
+- [ ] Inspecter l'URL canonique et demander l'indexation de la page d'accueil.
 - [x] Vérifier le workflow GitHub Pages : build et déploiement terminés avec succès (run 42731455430, commit `963b6a4`).
 - [ ] Contrôler les performances et l'accessibilité après intégration des médias.
 - [x] Corriger les trois références erronées à la session de juillet : le baccalauréat est celui de juin 2026.
@@ -34,3 +37,7 @@
 - [x] Réduire les requêtes tierces en supprimant les polices distantes au profit des polices système.
 - [x] Ajouter un lien d'évitement, un focus clavier visible et des données structurées Person.
 - [x] Ajouter `REFERENCES.md` avec les sources officielles et les critères de QA.
+- [x] Ajouter le nom exact « Bandiougou Keita » au titre SEO et au titre principal visible.
+- [x] Ajouter les métadonnées auteur, robots et og:site_name.
+- [x] Remplacer le schéma Person isolé par un schéma ProfilePage avec mainEntity Person.
+- [x] Publier un sitemap XML avec l'URL canonique du portfolio.
