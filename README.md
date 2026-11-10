@@ -20,7 +20,7 @@ Portfolio personnel de Bandiougou Keita, jeune diplômé en Génie Minier.
 Ouvrir simplement `index.html` dans un navigateur ou lancer :
 ```bash
 python3 -m http.server 8000
-``
+```
 Puis visiter `http://localhost:8000`.
 
 ## Qualité et référencement
