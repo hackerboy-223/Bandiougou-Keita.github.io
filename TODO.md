@@ -24,9 +24,9 @@
 - [x] Améliorer les attributs d'accessibilité du menu mobile et de la barre de progression.
 - [x] Ajouter fermeture du menu par Échap et au redimensionnement desktop.
 - [ ] Mesurer Lighthouse (Performance, Accessibility, Best Practices, SEO) sur le site publié.
-- [ ] Cliquer sur « Vérifier » dans Google Search Console après publication de la balise HTML (balise intégrée au commit `23aeabd`).
-- [ ] Soumettre `sitemap.xml` dans Google Search Console.
-- [ ] Inspecter l'URL canonique et demander l'indexation de la page d'accueil.
+- [ ] Obtenir un nouveau jeton HTML Search Console pour la propriété `https://bandiougou-keita.vercel.app/` (l'ancien jeton concernait l'URL GitHub Pages).
+- [ ] Soumettre `https://bandiougou-keita.vercel.app/sitemap.xml` dans Google Search Console.
+- [ ] Inspecter `https://bandiougou-keita.vercel.app/` et demander son indexation.
 - [x] Vérifier le workflow GitHub Pages : build et déploiement terminés avec succès (run 42731455430, commit `963b6a4`).
 - [ ] Contrôler les performances et l'accessibilité après intégration des médias.
 - [x] Corriger les trois références erronées à la session de juillet : le baccalauréat est celui de juin 2026.
@@ -48,3 +48,11 @@
 - [ ] Soumettre le sitemap et demander l'indexation de l'URL d'accueil.
 
 - [x] Ajouter `robots.txt` : exploration autorisée et sitemap déclaré.
+
+## Migration vers Vercel
+- [x] Définir `https://bandiougou-keita.vercel.app/` comme URL canonique.
+- [x] Mettre à jour Open Graph, Twitter Cards et toutes les URL du schéma ProfilePage/Person.
+- [x] Rebaser `sitemap.xml` et `robots.txt` sur le domaine Vercel.
+- [x] Mettre à jour le README et les instructions Search Console pour Vercel.
+- [ ] Ajouter le nouveau jeton Search Console pour la propriété Vercel et confirmer la propriété.
+- [ ] Vérifier le rendu HTTP public sur le domaine Vercel et les deux médias.
