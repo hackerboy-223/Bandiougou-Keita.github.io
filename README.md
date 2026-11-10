@@ -39,7 +39,7 @@ Les règles CSS s'adaptent progressivement aux écrans larges, tablettes (960 px
 - Les références techniques et critères de validation sont documentés dans [`REFERENCES.md`](REFERENCES.md).
 
 ## Hébergement et domaine officiel
-Le site public est hébergé sur Vercel : [bandiougou-keita.vercel.app](https://bandiougou-keita.vercel.app/). Le dépôt GitHub sert de source au projet Vercel ; les changements poussés sur la branche de production liée déclenchent un nouveau déploiement. Vérifier le dernier déploiement depuis le tableau de bord Vercel.
+Le site public est hébergé sur Vercel : [bandiougou-keita.vercel.app](https://bandiougou-keita.vercel.app/). Le dépôt GitHub sert de source au projet Vercel ; les changements poussés sur la branche de production liée déclenchent un nouveau déploiement. Le fichier `vercel.json` fixe explicitement `outputDirectory` à `.` afin que Vercel serve `index.html`, `sitemap.xml`, `robots.txt` et `assets/` depuis la racine du dépôt. Le projet Vercel doit utiliser ce dépôt et avoir `Root Directory` réglé sur `./` (racine).
 
 ## Indexation Google
 Le sitemap est publié à [`/sitemap.xml`](https://bandiougou-keita.vercel.app/sitemap.xml). Le fichier [`/robots.txt`](https://bandiougou-keita.vercel.app/robots.txt) autorise l'exploration et indique ce sitemap. La balise actuellement conservée dans le HTML a été fournie pour l'ancienne adresse GitHub Pages ; elle ne doit pas être considérée comme une validation du nouveau domaine Vercel. Créer une propriété de type Préfixe de l'URL pour `https://bandiougou-keita.vercel.app/`, choisir la méthode Balise HTML et remplacer/ajouter le nouveau jeton après l'avoir obtenu. Ensuite, cliquer sur « Vérifier », soumettre `sitemap.xml`, inspecter l'URL d'accueil et demander son indexation.
