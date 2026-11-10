@@ -56,3 +56,9 @@
 - [x] Mettre à jour le README et les instructions Search Console pour Vercel.
 - [ ] Ajouter le nouveau jeton Search Console pour la propriété Vercel et confirmer la propriété.
 - [ ] Vérifier le rendu HTTP public sur le domaine Vercel et les deux médias.
+
+## Correction sitemap Vercel
+- [x] Ajouter `vercel.json` avec `outputDirectory: "."` pour publier les fichiers statiques à la racine.
+- [ ] Vérifier dans Vercel que le projet pointe vers ce dépôt, la branche `main` et `Root Directory: ./`.
+- [ ] Tester les réponses HTTP 200 et les types MIME de `/sitemap.xml`, `/robots.txt` et des deux WebP après déploiement.
+- [ ] Vérifier le sitemap dans Google Search Console après retour HTTP valide.
