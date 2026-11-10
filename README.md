@@ -7,11 +7,13 @@ Portfolio personnel de Bandiougou Keita, jeune diplômé en Génie Minier.
 - Typographie expressive, grands espaces et palette ivoire / graphite / bronze.
 - Animations au scroll via IntersectionObserver et transitions CSS natives.
 - Navigation mobile, barre de progression et prise en charge de `prefers-reduced-motion`.
-- Mise en page responsive sans dépendance JavaScript externe.
+- Mise en page responsive étendue : desktop large, ordinateurs portables, tablettes et petits mobiles.
+- Grilles fluides, typographie adaptative et espacements progressifs selon la largeur disponible.
+- Aucun framework ni dépendance JavaScript externe.
 
 ## Contenu
 - Profil et présentation.
-- Parcours au Lycée Technique de Bamako et baccalauréat 2026, mention Bien.
+- Parcours au Lycée Technique de Bamako et baccalauréat — session de juin 2026, mention Bien.
 - Prix d'Excellence du Président de la Transition.
 - Projet de cycle d'ingénieur en Russie et ambition de contribuer au Mali.
 - Contact téléphonique.
@@ -22,6 +24,9 @@ Ouvrir simplement `index.html` dans un navigateur ou lancer :
 python3 -m http.server 8000
 ```
 Puis visiter `http://localhost:8000`.
+
+## Compatibilité responsive
+Les règles CSS s'adaptent progressivement aux écrans larges, tablettes (960 px et moins), mobiles (800 px et moins), petits mobiles (640 px et moins) et formats compacts (390 px et moins). Ces seuils servent de points de transition du contenu, pas de cibles exclusives pour des modèles de téléphones.
 
 ## Qualité et référencement
 - Métadonnées canonical, Open Graph et Twitter Cards.
