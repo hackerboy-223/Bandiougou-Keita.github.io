@@ -54,3 +54,6 @@ Ces valeurs sont des points de vérification pratiques ; l'adaptation suit d'abo
 - La présence du sitemap est vérifiée dans le dépôt, mais sa lecture par Google doit être confirmée dans Search Console.
 - La propriété Search Console et la demande de réexploration exigent une authentification du propriétaire ; aucune validation n'est inventée dans ce dépôt.
 - L'indexation et le classement ne sont jamais garantis par un sitemap ou des données structurées.
+
+## Vérification Search Console
+- La balise HTML `google-site-verification` est injectée dans le `<head>` du document. Sa validation finale doit être faite par le propriétaire depuis Google Search Console après la publication effective.
