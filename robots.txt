@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hackerboy-223.github.io/Bandiougou-Keita.github.io/sitemap.xml
