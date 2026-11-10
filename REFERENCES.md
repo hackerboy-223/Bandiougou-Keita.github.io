@@ -63,3 +63,8 @@ Ces valeurs sont des points de vérification pratiques ; l'adaptation suit d'abo
 - Domaine canonique retenu : `https://bandiougou-keita.vercel.app/`.
 - L'ancienne URL GitHub Pages n'est plus la référence canonique du contenu.
 - Le jeton HTML Search Console existant doit être renouvelé pour la propriété URL-prefix Vercel avant de considérer cette propriété vérifiée.
+
+## Sortie statique Vercel
+- [Vercel — Configurer un build](https://vercel.com/docs/builds/configure-a-build) : les fichiers servis doivent se trouver dans le répertoire de sortie configuré ; les sites statiques sans build peuvent être servis depuis la racine `.`.
+- [Vercel — Configuration vercel.json](https://vercel.com/docs/project-configuration/vercel-json) : `outputDirectory` remplace le réglage Output Directory du projet.
+- [Vercel — Erreur 404 après déploiement](https://vercel.com/kb/guide/why-is-my-deployed-project-giving-404) : vérifier le répertoire de sortie et l'organisation du projet statique.
