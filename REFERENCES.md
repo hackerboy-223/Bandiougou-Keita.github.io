@@ -18,8 +18,8 @@ Ce portfolio est une page statique HTML/CSS/JavaScript. Les choix de réalisatio
 - [Google Search Central — Lazy loading](https://developers.google.com/search/docs/crawling-indexing/javascript/lazy-loading) : contenu important accessible sans interaction obligatoire.
 
 ## Hébergement
-- [GitHub Docs — Configurer une source de publication GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) : publication depuis `main` et la racine du dépôt.
-- [GitHub Docs — Créer un site GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site) : fichier d'entrée, publication et vérification du site.
+- [Vercel Docs — Déploiements Git](https://vercel.com/docs/deployments/git) : déploiements automatiques à partir d'un dépôt Git connecté.
+- [Vercel Docs — Domaines](https://vercel.com/docs/domains/working-with-domains) : configuration et vérification d'un domaine de projet.
 
 ## Contrôles à effectuer avant validation finale
 1. Ouvrir le site publié sur un téléphone et un ordinateur.
@@ -58,3 +58,8 @@ Ces valeurs sont des points de vérification pratiques ; l'adaptation suit d'abo
 ## Vérification Search Console
 - La balise HTML `google-site-verification` est injectée dans le `<head>` du document. Sa validation finale doit être faite par le propriétaire depuis Google Search Console après la publication effective.
 - [Google Search Central — Créer et envoyer un fichier robots.txt](https://developers.google.com/search/docs/crawling-indexing/robots/create-robots-txt) : contrôle des règles d'exploration.
+
+## Domaine de production
+- Domaine canonique retenu : `https://bandiougou-keita.vercel.app/`.
+- L'ancienne URL GitHub Pages n'est plus la référence canonique du contenu.
+- Le jeton HTML Search Console existant doit être renouvelé pour la propriété URL-prefix Vercel avant de considérer cette propriété vérifiée.
