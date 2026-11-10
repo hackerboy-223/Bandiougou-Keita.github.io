@@ -12,7 +12,7 @@
 - [x] Corriger l'URL absolue de l'image Open Graph.
 - [x] Corriger l'affichage flex du bouton de menu mobile.
 - [x] Vérifier la présence des deux fichiers dans `assets/` : portrait 181 757 octets, diplôme 337 555 octets.
-- [ ] Contrôler le chargement HTTP depuis GitHub Pages et le rendu navigateur (URL publique non vérifiable depuis l'environnement actuel).
+- [ ] Contrôler le chargement HTTP depuis GitHub Pages et le rendu navigateur (accès live non vérifiable depuis cet environnement).
 
 ## Expérience & qualité
 - [x] Navigation responsive.
@@ -26,3 +26,6 @@
 - [ ] Mesurer Lighthouse (Performance, Accessibility, Best Practices, SEO) sur le site publié.
 - [ ] Vérifier le déploiement GitHub Pages.
 - [ ] Contrôler les performances et l'accessibilité après intégration des médias.
+- [x] Réduire les requêtes tierces en supprimant les polices distantes au profit des polices système.
+- [x] Ajouter un lien d'évitement, un focus clavier visible et des données structurées Person.
+- [x] Ajouter `REFERENCES.md` avec les sources officielles et les critères de QA.
