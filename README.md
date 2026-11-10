@@ -42,7 +42,7 @@ Les règles CSS s'adaptent progressivement aux écrans larges, tablettes (960 px
 Dans `Settings → Pages`, sélectionner `Deploy from a branch`, puis `main` et `/(root)`. Le fichier `index.html` doit rester à la racine. Après publication, vérifier le site depuis le bouton `Visit site`.
 
 ## Indexation Google
-Le sitemap du site est publié à [`sitemap.xml`](https://hackerboy-223.github.io/Bandiougou-Keita.github.io/sitemap.xml). La balise HTML de vérification fournie par le propriétaire est intégrée dans le `<head>` de `index.html`. Après publication, retourner dans [Google Search Console](https://search.google.com/search-console), cliquer sur « Vérifier », puis soumettre le sitemap `sitemap.xml`, inspecter l'URL d'accueil et demander son indexation.
+Le sitemap du site est publié à [`sitemap.xml`](https://hackerboy-223.github.io/Bandiougou-Keita.github.io/sitemap.xml). Le fichier [`robots.txt`](https://hackerboy-223.github.io/Bandiougou-Keita.github.io/robots.txt) autorise l'exploration et indique ce sitemap. La balise HTML de vérification fournie par le propriétaire est intégrée dans le `<head>` de `index.html`. Après publication, retourner dans [Google Search Console](https://search.google.com/search-console), cliquer sur « Vérifier », puis soumettre le sitemap `sitemap.xml`, inspecter l'URL d'accueil et demander son indexation.
 
 L'ajout au sitemap aide Google à découvrir l'URL mais ne garantit ni son indexation ni sa position. La propriété Search Console doit être vérifiée par le propriétaire du site.
 
