@@ -42,3 +42,15 @@ Ce portfolio est une page statique HTML/CSS/JavaScript. Les choix de réalisatio
 - 390 px et moins : contrôle des petits téléphones et prévention des débordements horizontaux.
 
 Ces valeurs sont des points de vérification pratiques ; l'adaptation suit d'abord la place réellement disponible pour le contenu.
+
+## Visibilité dans les moteurs de recherche
+- [Google Search Central — Principes fondamentaux de la recherche](https://developers.google.com/search/docs/essentials) : accessibilité du contenu, utilité, indexabilité et bonnes pratiques.
+- [Google Search Central — Créer et envoyer un sitemap](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap) : format XML, découverte des URL et soumission dans Search Console.
+- [Google Search Central — Demander une nouvelle exploration](https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl) : inspection d'URL et demande d'indexation par le propriétaire vérifié.
+- [Google Search Central — Données structurées ProfilePage](https://developers.google.com/search/docs/appearance/structured-data/profile-page) : balisage d'une page centrée sur une personne.
+- [Google Search Central — Influencer les liens de titre](https://developers.google.com/search/docs/appearance/title-link) : cohérence entre le titre HTML, le titre visible, le contenu et les liens externes.
+
+## Suivi d'indexation
+- La présence du sitemap est vérifiée dans le dépôt, mais sa lecture par Google doit être confirmée dans Search Console.
+- La propriété Search Console et la demande de réexploration exigent une authentification du propriétaire ; aucune validation n'est inventée dans ce dépôt.
+- L'indexation et le classement ne sont jamais garantis par un sitemap ou des données structurées.
