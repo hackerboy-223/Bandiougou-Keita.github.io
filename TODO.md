@@ -24,7 +24,7 @@
 - [x] Améliorer les attributs d'accessibilité du menu mobile et de la barre de progression.
 - [x] Ajouter fermeture du menu par Échap et au redimensionnement desktop.
 - [ ] Mesurer Lighthouse (Performance, Accessibility, Best Practices, SEO) sur le site publié.
-- [ ] Vérifier la propriété du site dans Google Search Console avec le jeton fourni par le propriétaire.
+- [ ] Cliquer sur « Vérifier » dans Google Search Console après publication de la balise HTML (balise intégrée au commit `23aeabd`).
 - [ ] Soumettre `sitemap.xml` dans Google Search Console.
 - [ ] Inspecter l'URL canonique et demander l'indexation de la page d'accueil.
 - [x] Vérifier le workflow GitHub Pages : build et déploiement terminés avec succès (run 42731455430, commit `963b6a4`).
@@ -41,3 +41,8 @@
 - [x] Ajouter les métadonnées auteur, robots et og:site_name.
 - [x] Remplacer le schéma Person isolé par un schéma ProfilePage avec mainEntity Person.
 - [x] Publier un sitemap XML avec l'URL canonique du portfolio.
+
+## Vérification Search Console
+- [x] Intégrer la balise HTML Google `google-site-verification` fournie par le propriétaire dans le `<head>` de `index.html`.
+- [ ] Confirmer la propriété dans Search Console une fois la dernière version publiée.
+- [ ] Soumettre le sitemap et demander l'indexation de l'URL d'accueil.
