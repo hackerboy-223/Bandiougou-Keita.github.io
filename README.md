@@ -38,11 +38,11 @@ Les règles CSS s'adaptent progressivement aux écrans larges, tablettes (960 px
 - Les images principales et secondaires utilisent des priorités de chargement adaptées.
 - Les références techniques et critères de validation sont documentés dans [`REFERENCES.md`](REFERENCES.md).
 
-## Déploiement GitHub Pages
-Dans `Settings → Pages`, sélectionner `Deploy from a branch`, puis `main` et `/(root)`. Le fichier `index.html` doit rester à la racine. Après publication, vérifier le site depuis le bouton `Visit site`.
+## Hébergement et domaine officiel
+Le site public est hébergé sur Vercel : [bandiougou-keita.vercel.app](https://bandiougou-keita.vercel.app/). Le dépôt GitHub sert de source au projet Vercel ; les changements poussés sur la branche de production liée déclenchent un nouveau déploiement. Vérifier le dernier déploiement depuis le tableau de bord Vercel.
 
 ## Indexation Google
-Le sitemap du site est publié à [`sitemap.xml`](https://hackerboy-223.github.io/Bandiougou-Keita.github.io/sitemap.xml). Le fichier [`robots.txt`](https://hackerboy-223.github.io/Bandiougou-Keita.github.io/robots.txt) autorise l'exploration et indique ce sitemap. La balise HTML de vérification fournie par le propriétaire est intégrée dans le `<head>` de `index.html`. Après publication, retourner dans [Google Search Console](https://search.google.com/search-console), cliquer sur « Vérifier », puis soumettre le sitemap `sitemap.xml`, inspecter l'URL d'accueil et demander son indexation.
+Le sitemap est publié à [`/sitemap.xml`](https://bandiougou-keita.vercel.app/sitemap.xml). Le fichier [`/robots.txt`](https://bandiougou-keita.vercel.app/robots.txt) autorise l'exploration et indique ce sitemap. La balise actuellement conservée dans le HTML a été fournie pour l'ancienne adresse GitHub Pages ; elle ne doit pas être considérée comme une validation du nouveau domaine Vercel. Créer une propriété de type Préfixe de l'URL pour `https://bandiougou-keita.vercel.app/`, choisir la méthode Balise HTML et remplacer/ajouter le nouveau jeton après l'avoir obtenu. Ensuite, cliquer sur « Vérifier », soumettre `sitemap.xml`, inspecter l'URL d'accueil et demander son indexation.
 
 L'ajout au sitemap aide Google à découvrir l'URL mais ne garantit ni son indexation ni sa position. La propriété Search Console doit être vérifiée par le propriétaire du site.
 
