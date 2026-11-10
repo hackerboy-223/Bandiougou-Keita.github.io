@@ -29,7 +29,10 @@ Puis visiter `http://localhost:8000`.
 Les règles CSS s'adaptent progressivement aux écrans larges, tablettes (960 px et moins), mobiles (800 px et moins), petits mobiles (640 px et moins) et formats compacts (390 px et moins). Ces seuils servent de points de transition du contenu, pas de cibles exclusives pour des modèles de téléphones.
 
 ## Qualité et référencement
-- Métadonnées canonical, Open Graph et Twitter Cards.
+- Métadonnées canonical, Open Graph, Twitter Cards et auteur.
+- Nom exact « Bandiougou Keita » placé dans le titre SEO et le titre principal visible.
+- Données structurées Schema.org `ProfilePage` reliées à une entité `Person`.
+- Sitemap XML pour faciliter la découverte du portfolio par les moteurs de recherche.
 - Rendu de secours si JavaScript ou `IntersectionObserver` est indisponible.
 - Navigation mobile accessible au clavier (Échap pour fermer).
 - Les images principales et secondaires utilisent des priorités de chargement adaptées.
@@ -37,6 +40,11 @@ Les règles CSS s'adaptent progressivement aux écrans larges, tablettes (960 px
 
 ## Déploiement GitHub Pages
 Dans `Settings → Pages`, sélectionner `Deploy from a branch`, puis `main` et `/(root)`. Le fichier `index.html` doit rester à la racine. Après publication, vérifier le site depuis le bouton `Visit site`.
+
+## Indexation Google
+Le sitemap du site est publié à [`sitemap.xml`](https://hackerboy-223.github.io/Bandiougou-Keita.github.io/sitemap.xml). Après vérification de propriété dans [Google Search Console](https://search.google.com/search-console), ajouter la propriété avec l'URL exacte du site, soumettre le sitemap `sitemap.xml`, puis inspecter l'URL d'accueil et demander son indexation.
+
+L'ajout au sitemap aide Google à découvrir l'URL mais ne garantit ni son indexation ni sa position. La propriété Search Console doit être vérifiée par le propriétaire du site.
 
 ## Médias
 Les médias du portfolio sont attendus dans `assets/` :
