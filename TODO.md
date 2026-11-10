@@ -24,7 +24,7 @@
 - [x] Améliorer les attributs d'accessibilité du menu mobile et de la barre de progression.
 - [x] Ajouter fermeture du menu par Échap et au redimensionnement desktop.
 - [ ] Mesurer Lighthouse (Performance, Accessibility, Best Practices, SEO) sur le site publié.
-- [ ] Vérifier le déploiement GitHub Pages.
+- [x] Vérifier le workflow GitHub Pages : build et déploiement terminés avec succès (run 42731455430, commit `963b6a4`).
 - [ ] Contrôler les performances et l'accessibilité après intégration des médias.
 - [x] Corriger les trois références erronées à la session de juillet : le baccalauréat est celui de juin 2026.
 - [x] Élargir la mise en page desktop sans étirer excessivement les lignes de texte.
