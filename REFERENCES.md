@@ -57,3 +57,4 @@ Ces valeurs sont des points de vérification pratiques ; l'adaptation suit d'abo
 
 ## Vérification Search Console
 - La balise HTML `google-site-verification` est injectée dans le `<head>` du document. Sa validation finale doit être faite par le propriétaire depuis Google Search Console après la publication effective.
+- [Google Search Central — Créer et envoyer un fichier robots.txt](https://developers.google.com/search/docs/crawling-indexing/robots/create-robots-txt) : contrôle des règles d'exploration.
