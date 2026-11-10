@@ -46,3 +46,5 @@
 - [x] Intégrer la balise HTML Google `google-site-verification` fournie par le propriétaire dans le `<head>` de `index.html`.
 - [ ] Confirmer la propriété dans Search Console une fois la dernière version publiée.
 - [ ] Soumettre le sitemap et demander l'indexation de l'URL d'accueil.
+
+- [x] Ajouter `robots.txt` : exploration autorisée et sitemap déclaré.
