@@ -27,3 +27,18 @@ Ce portfolio est une page statique HTML/CSS/JavaScript. Les choix de réalisatio
 3. Tester la navigation au clavier, le menu mobile et le mode de réduction des animations.
 4. Exécuter Lighthouse et viser de bons résultats sur Performance, Accessibility, Best Practices et SEO.
 5. Vérifier le statut du dernier déploiement dans l'onglet **Actions** de GitHub.
+
+## Mise en page responsive
+- [MDN — Design responsive](https://developer.mozilla.org/fr/docs/Learn_web_development/Core/CSS_layout/Responsive_Design) : grilles flexibles, points de rupture choisis selon le contenu et médias qui ne dépassent pas leur conteneur.
+- [MDN — Requêtes média CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Media_queries) : adaptation conditionnelle aux dimensions et préférences de l'environnement.
+- [Chrome for Developers — Responsive design](https://developer.chrome.com/docs/modern-web-guidance/guides/css/responsive-design) : unités de viewport dynamiques, aspect-ratio et typographie fluide avec `clamp()`.
+
+## Points de contrôle responsive
+- 1440 px et plus : contenu large avec largeur de lecture limitée.
+- 1024 px : colonnes conservées tant que les contenus restent lisibles.
+- 960 px : hero et sections complexes passent en une seule colonne si nécessaire.
+- 800 px : navigation mobile et sections empilées.
+- 640 px : ajustement des espacements, titres, boutons et médias.
+- 390 px et moins : contrôle des petits téléphones et prévention des débordements horizontaux.
+
+Ces valeurs sont des points de vérification pratiques ; l'adaptation suit d'abord la place réellement disponible pour le contenu.
